@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental Rights: Protection Against Arrest and Detention</title>
+    <style>
+        /* Container for the image and text */
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* Style the image */
+        .background-image {
+            width: 100%;
+            height: 125%;
+            display: block;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center; /* Horizontally centers the image */
+            align-items: center; /* Vertically centers the image */
+            /* Optional: Sets container height to viewport height */
+            
+        }
+
+        .center-image {
+            max-width: 100%; /* Ensures the image doesn't overflow the container */
+            height: auto;
+            max-height: 300%;
+            
+        }
+
+            /* Text overlay */
+        .text-overlay {
+            position: absolute;
+            top: -03%;
+            left:37.5%
+            transform: translate(-50%,-50%);
+            color: black; /* Text color */
+            text-align: center;
+            padding:10px ;
+            border: radius 10px;;
+        }
+
+        /* Optional: Customize text styles */
+        .text-overlay h1 {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .text-overlay p1 {
+            font-size: 17px;
+            font-family:'Times New Roman', Times, serif;
+            margin-top:0;
+            line-height: 0.8;
+            left:30%;
+        }
+
+        .text-overlay p2{
+            font-size:13.5px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 1.5;
+            left:30%;
+            text-align: left;
+        }
+
+        .text-overlay p3{
+            font-size:11px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 0.9;
+            left:70%;
+        }
+
+        ul.custom-bullets {
+            list-style-type: circle; /* Change bullet to a circle */
+            padding-left: 20px; /* Add some padding to the left */
+            text-align: left;
+        }
+
+        ul.custom-bullets li {
+            color: black; /* Change the text color */
+            margin-bottom: 10px; /* Add some space between list items */
+        }
+
+        ul.custom-bullet {
+          list-style-type: square; /* Change bullet to a circle */
+          padding-left: 20px; /* Add some padding to the left */
+         text-align: left;
+        }
+
+        ul.custom-bullet li {
+            color: black; /* Change the text color */
+            margin-bottom: 10px; /* Add some space between list items */
+        }
+
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .close-button:hover {
+            background-color: rgba(236, 133, 133, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="flex-container">
+            <img src="C:\Users\J Koley\Downloads\BG.png" alt="Protection Against Arrest and Detention" class="background-image" class="center" >
+            <div class="text-overlay">
+                <h1> <b>Protection Against Arrest and Detention</b></h1><br>
+                <p1><b><i><u>Article 22</u> grants protection to persons who are arrested or detained.</i></b>
+                </p1><br>
+                 <p2>
+                     <ul class="custom-bullets">
+                       <li>Detention is of two types, namely, <b>punitive</b> (punishment after trial and conviction) and <b>preventive</b> (punishment without trial and conviction).
+                       <li>The first part of Article 22 deals with the ordinary law and includes:
+                        <ul class="custom-bullet">
+                            <p3>
+                            <li>Right to be informed of the grounds of arrest.</li>
+                            <li>Right to consult and be defended by a legal practitioner.</li>
+                            <li>Right to be produced before a magistrate within 24 hours, excluding the journey time.</li>
+                            <li>Right to be released after 24 hours unless the magistrate authorises further detention.</li>
+                            </p3>
+                        </ul>
+                        <li>The second part of Article 22 deals with preventive detention law. Protection under this article is available to both citizens as well as aliens and includes the following:
+                            <p3>
+                            <ul class="custom-bullet">
+                                <li>The detention of a person cannot exceed three months unless an advisory board (judges of high court) reports sufficient cause for extended detention.</li>
+                                <li>The grounds of detention should be communicated to the detenu.</li>
+                                <li>The detenu should be afforded an opportunity to make a representation against the detention order.</li></ul>
+                            </p3>
+                            
+                    </ul>
+                </p2>
+                 </div>
+        </div>
+        <span class="close-button">&times;</span>
+    </div>
+
+    <script>
+        var closeButton = document.querySelector('.close-button');
+        var imageContainer = document.querySelector('.image-container');
+
+        closeButton.onclick = function() {
+            imageContainer.style.display = 'none';
+        };
+    </script>
+</body>
+</html>
